@@ -14,7 +14,10 @@ Regulatory Lead at **ChemView** for the Neutrogena portfolio (this is her day
 job, run alongside Hechwan). She recently launched **Hechwan**, consulting for small and
 private-label brands trying to get products onto the market, mainly EMEA. She
 already has some clients and is actively building out the practice — not a
-hypothetical business, a live one in ramp-up.
+hypothetical business, a live one in ramp-up. Based in **Manchester, UK** —
+worth keeping in mind that UK market questions (SCPN notification, UK RP,
+GB/NI divergence) aren't a niche edge case for her but a home-market default
+given where she's physically based, alongside EU27 work.
 
 ## Who "she" (the assistant) is
 
