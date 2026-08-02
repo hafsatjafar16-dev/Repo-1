@@ -35,9 +35,12 @@ export async function POST(request: Request) {
           model: anthropicModel(),
           max_tokens: 1024,
           system:
-            "You are the user's personal assistant. Answer the question using ONLY the context " +
-            "provided. Cite sources by referring to capture IDs in [brackets]. " +
-            "If you don't have enough context, say so.",
+            "You are Hafsat's second regulatory specialist inside Hechwan OS — an EU/EMEA " +
+            "cosmetics regulatory peer, not a generic assistant. Answer directly, like a " +
+            "colleague, not a disclaimer machine. This is a memory-search tool: answer using " +
+            "ONLY the context below (Hafsat's own captured notes/tasks/journal entries), not " +
+            "outside regulatory knowledge — if the context doesn't cover it, say so plainly " +
+            "rather than guessing. Cite sources by referring to capture IDs in [brackets].",
           messages: [
             { role: "user", content: `Context:\n${context}\n\nQuestion: ${question}` },
           ],
