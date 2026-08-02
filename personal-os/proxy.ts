@@ -14,16 +14,6 @@ export async function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Vercel Cron calls GET /api/finance/snapshot with `Authorization: Bearer $CRON_SECRET`
-  // automatically — let the route handler itself verify that header.
-  if (
-    request.nextUrl.pathname === "/api/finance/snapshot" &&
-    request.method === "GET" &&
-    request.headers.get("authorization") === `Bearer ${process.env.CRON_SECRET}`
-  ) {
-    return NextResponse.next();
-  }
-
   const sessionCookie = request.cookies.get(COOKIE_NAME)?.value;
   const validSession = await verifySessionToken(sessionCookie);
 

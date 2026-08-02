@@ -2,8 +2,35 @@
 
 Source: "Personal OS Build Cheat Sheet" (Miles Deutscher / AI Edge) — a build
 guide for a personal AI dashboard (task/CRM/journal/habits/finance/memory,
-captured via a Telegram voice bot). Not built yet — this doc records the
-stack comparison and decision so the build can start from here later.
+captured via a Telegram voice bot). This doc records the stack comparison
+and decision; the build itself lives in `../personal-os/`.
+
+## Scope cut: trimmed to what the consulting practice actually needs
+
+The guide's default is a general personal-life dashboard. For "a secondary
+regulatory consultant to lean on, help with clients and tasks," most of that
+is unused surface area rather than a requirement. Cut:
+
+- **Nutrition, Habit Tracker, Calendar, Finance Pulse (personal net worth)**
+  — personal-life cards from the guide's default persona, not consulting-
+  practice tooling. Removed from the build entirely (components, API routes,
+  pages, and the `exceljs`/`ical.js`/`google-auth-library` dependencies they
+  needed).
+
+Kept:
+
+- **Capture pipeline** (web form + optional Telegram) → AI classification →
+  tasks/journal/notes/goals.
+- **CRM** — doubles as the client tracker (Kanban/Smart/Category views).
+- **Brain** — memory search + ask, useful for "what did we decide about
+  client X's claim substantiation last month."
+- **Journal** — quick daily capture.
+
+This didn't change the infrastructure needed (Supabase, Anthropic, OpenAI
+are all still required — see `../personal-os/SETUP.md`) since those power
+the kept features too. It mainly removes unused code, a few dependencies,
+and the Google Calendar/Sheets setup steps that would otherwise have been
+dead weight.
 
 ## Decision: use the guide's default stack, with one specific reason
 
@@ -16,12 +43,14 @@ stack comparison and decision so the build can start from here later.
   Already have Claude access via this environment, so no new subscription.
   Claude's structured-output strength suits classification/routing tasks.
 - **Hosting: Vercel, free tier** — ~$0/month (PDF's own figure), first-class
-  Next.js support, cron included (needed for scheduled tasks like a daily
-  snapshot or morning briefing).
-- **Capture: Telegram bot** — free, fastest to stand up. **Caveat: use it for
-  personal task/idea capture only — not for client-confidential material**
-  (PIFs, formulas, correspondence). This tool is practice-management, not a
-  client data system.
+  Next.js support. No cron needed anymore since Finance Pulse (the only
+  feature that used one) was cut.
+- **Capture: web form, with Telegram bot as an optional add-on** — Telegram
+  is free and fast to stand up, but it's just an input channel; skip it if
+  you'd rather not manage one more account. **Caveat regardless of channel:
+  use it for your own task/idea capture only — not for client-confidential
+  material** (PIFs, formulas, correspondence). This tool is
+  practice-management, not a client data system.
 - **Embeddings: OpenAI `text-embedding-3-small`** — ~$0.02/M tokens (PDF),
   negligible at solo-use volume.
 
@@ -36,14 +65,17 @@ stack comparison and decision so the build can start from here later.
 | Memory/vector | Pinecone / Weaviate | Extra managed service and cost; Supabase pgvector already covers it |
 | LLM | Local Llama | No API cost but needs dedicated hardware — not worth it for occasional use |
 
-## Expected cost
+## Expected cost (trimmed scope)
 
-$0/month infrastructure (all free tiers) + an estimated **$15–30/month** in
-LLM/embedding API usage, in line with the guide's own ~$30/month estimate for
-the default stack at active use.
+$0/month infrastructure (all free tiers). LLM/embedding API usage at
+realistic solo-consulting volume (client-driven captures, occasional CRM
+smart search and Brain queries — not habitual multi-times-daily personal
+logging) is estimated at **~$5–15/month**, lower than the guide's own
+~$30/month figure since that included Nutrition/Finance Pulse's extra Claude
+calls, which are gone. A $20 balance with a spend cap on each of
+Anthropic/OpenAI is comfortable headroom.
 
 ## Status
 
-Comparison only — **not yet built**. See the original guide (Parts 2–9) for
-the build sequence (design → foundation → capture pipeline → cards → memory
-→ deployment) if/when this becomes a live build.
+Built — see `../personal-os/`. Not yet deployed; `SETUP.md` there has the
+account-creation and credential-wiring steps.

@@ -8,9 +8,7 @@ const TABS = [
   { href: "/", label: "Home" },
   { href: "/crm", label: "CRM" },
   { href: "/brain", label: "Brain" },
-  { href: "/finance", label: "Finance" },
   { href: "/journal", label: "Journal" },
-  { href: "/health", label: "Health" },
 ];
 
 export function TopRail() {

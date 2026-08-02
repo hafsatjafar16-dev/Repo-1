@@ -31,30 +31,6 @@ export type GoalItem = {
   done: boolean;
 };
 
-export type HabitDay = {
-  date: string;
-  done: string[];
-  total: number;
-};
-
-export type NutritionMeal = {
-  id: string;
-  t: string; // time (HH:mm)
-  n: string; // meal name
-  kcal: number;
-  p: number;
-  c: number;
-  f: number;
-  estimated: boolean;
-};
-
-export type FinanceSnapshot = {
-  net_worth: number;
-  currency: string;
-  as_of: string;
-  categories: { name: string; value: number }[];
-};
-
 export type MemoryChunk = {
   id: string;
   source_type: string;
