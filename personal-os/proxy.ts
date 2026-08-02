@@ -4,7 +4,7 @@ import { COOKIE_NAME, verifyApiSecret, verifySessionToken } from "@/lib/auth/ses
 // Next.js 16 renamed `middleware.ts` -> `proxy.ts` (and `middleware` export -> `proxy`).
 export const config = {
   matcher: [
-    "/((?!login|api/auth|api/telegram/webhook|_next/static|_next/image|favicon.ico).*)",
+    "/((?!login|api/auth|api/telegram/webhook|_next/static|_next/image|favicon.ico|icon.png|apple-icon.png|icon-192.png|icon-512.png|manifest.webmanifest).*)",
   ],
 };
 
