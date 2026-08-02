@@ -33,7 +33,7 @@ function GoalList({
 
   return (
     <div>
-      <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-2">{title}</p>
+      <p className="label-tracked mb-2">{title}</p>
       <ul className="mb-2 space-y-1">
         {items.map((g) => (
           <li key={g.id} className="flex items-center gap-2 text-sm">
@@ -86,7 +86,7 @@ export function GoalsCard() {
   }
 
   return (
-    <Panel title="Goals">
+    <Panel index="03" title="Goals">
       <div className="space-y-4">
         <GoalList title="This Week" scope="week" items={week} onChange={handleChange} />
         <GoalList title="This Month" scope="month" items={month} onChange={handleChange} />

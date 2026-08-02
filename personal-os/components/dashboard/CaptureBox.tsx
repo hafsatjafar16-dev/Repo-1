@@ -36,7 +36,7 @@ export function CaptureBox() {
           {toast}
         </div>
       )}
-      <div className="rounded-xl border border-border bg-panel-bg p-2 shadow-lg backdrop-blur">
+      <div className="rounded-lg border border-border bg-panel-bg p-2 shadow-lg">
         {expanded ? (
           <div className="flex flex-col gap-2">
             <textarea
@@ -73,9 +73,9 @@ export function CaptureBox() {
         ) : (
           <button
             onClick={() => setExpanded(true)}
-            className="w-full rounded-lg px-3 py-2 text-left text-sm text-ink-2 hover:text-ink-0"
+            className="label-tracked flex w-full items-center gap-2 rounded-md px-3 py-2 text-left text-ink-2 hover:text-ink-0"
           >
-            + Capture something…
+            ⌘ Capture something…
           </button>
         )}
       </div>
