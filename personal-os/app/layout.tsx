@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Personal OS",
-  description: "Practice-management dashboard: capture, tasks, memory.",
+  title: "H1 OS",
+  description: "H1 practice-management dashboard: capture, tasks, memory.",
 };
 
 export default function RootLayout({

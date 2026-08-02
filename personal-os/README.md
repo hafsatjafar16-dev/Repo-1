@@ -1,13 +1,14 @@
-# Personal OS
+# H1 OS
 
-A single-user practice-management tool for a solo consulting practice:
+Hafsat Jaafar's practice-management tool for **H1** (EU/EMEA cosmetics
+regulatory consulting, run alongside her full-time role at ChemView):
 capture (web form + optional Telegram voice bot) → AI classification →
 tasks/journal/notes/goals, a CRM that doubles as a client tracker, and a
 memory layer (Brain) you can search or ask questions against.
 
 Trimmed from the original "Personal OS Build Cheat Sheet" guide to just what
-a consulting practice needs — the guide's personal-life cards (Nutrition,
-Habit Tracker, Calendar, Finance Pulse) were cut as scope creep. See
+H1 needs — the guide's personal-life cards (Nutrition, Habit Tracker,
+Calendar, Finance Pulse) were cut as scope creep. See
 `../tooling/personal-os-stack-decision.md` for that call and the stack
 decision: Next.js + Supabase (EU region) + Claude/OpenAI + Vercel + optional
 Telegram.
@@ -26,7 +27,7 @@ npm run dev
 
 ## Structure
 
-- `app/` — pages (Home, CRM, Brain, Journal) and API routes
+- `app/` — pages (Home, CRM, Brain, Journal, Review) and API routes
 - `components/dashboard/` — Panel, TopRail, Shell, and the card components
 - `lib/` — Supabase client, auth, LLM clients, capture pipeline, classifier
 - `supabase/migrations/0001_init.sql` — full schema + vector search function

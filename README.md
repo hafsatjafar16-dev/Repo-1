@@ -1,8 +1,9 @@
-# EMEA Cosmetics Regulatory Consulting — Working Repo
+# H1 — EMEA Cosmetics Regulatory Consulting — Working Repo
 
-Working repo for a solo EU/EMEA cosmetics regulatory affairs consulting
-practice. See `CLAUDE.md` for how the assistant should behave here — it acts
-as a second regulatory specialist grounded in Regulation (EC) 1223/2009.
+Working repo for **H1**, Hafsat Jaafar's EU/EMEA cosmetics regulatory affairs
+consulting practice (run alongside her full-time role at ChemView). See
+`CLAUDE.md` for how the assistant should behave here — it acts as a second
+regulatory specialist grounded in Regulation (EC) 1223/2009.
 
 ## Contents
 
@@ -14,9 +15,14 @@ as a second regulatory specialist grounded in Regulation (EC) 1223/2009.
 - `business/pricing-packages.md` — draft pricing models, rate card, and
   example service packages.
 - `business/consulting-hours-capacity.md` — draft hours-per-deliverable
-  benchmarks and solo-consultant capacity planning.
+  benchmarks and capacity planning (sized for a side practice, not full-time).
+- `tooling/personal-os-stack-decision.md` — stack decision for H1 OS, the
+  practice-management tool.
+- `personal-os/` — H1 OS itself (Next.js app: client/task CRM, capture
+  pipeline, searchable memory, weekly review).
 
 ## Status
 
-First draft, built 2026-08-01. Rates, hour estimates, and package structures
-are indicative starting points — refine with actuals as engagements happen.
+Rates, hour estimates, and package structures are indicative starting points
+— refine with actuals as engagements happen. H1 OS is built but not yet
+deployed; see `personal-os/SETUP.md`.
