@@ -1,11 +1,15 @@
-# Pricing & Packages — Draft
+# Pricing & Packages — Draft (H1)
 
 Working draft to refine together. Figures below are general industry
 ballparks for independent EU cosmetics regulatory consultants, not a
 benchmarking study — treat them as a starting anchor to sanity-check and
-adjust for positioning, not as fact. Your background (regulatory affairs at a
-large consumer health company) supports pricing toward the upper end of these
-ranges, especially for RP services and complex/novel-ingredient formulas.
+adjust for positioning, not as fact. Your background — 5 years' regulatory
+experience, Global Regulatory Specialist at Reckitt (Veet, Clearasil) and
+current Regional Regulatory Lead at ChemView (Neutrogena) — is a genuinely
+strong credential for client-facing positioning, and supports pricing toward
+the upper end of these ranges, especially for RP services and
+complex/novel-ingredient formulas. Worth stating explicitly in your own
+marketing/proposals, not just implying it.
 
 ## 1. Pick a pricing model per service type, not one model for everything
 

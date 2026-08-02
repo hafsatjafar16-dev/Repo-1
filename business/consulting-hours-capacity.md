@@ -17,21 +17,43 @@
 Track actuals per engagement from day one — these ranges should converge
 quickly to your real numbers, which is what makes fixed-fee pricing safe.
 
-## 2. Solo consultant capacity planning
+## 2. Capacity planning — H1 is a side practice, not full-time
 
-- A 40h/week solo practice does **not** mean 40 billable hours. Realistic
-  **utilization rate** (billable ÷ total working hours) for a solo consultant:
-  - Year 1 (building pipeline): ~40–55%
-  - Steady state, established practice: ~60–70%
-  - The rest goes to business development, admin/invoicing, CPD (staying
-    current on Annex amendments, SCCS opinions, EU guidance), and buffer.
-- At 55% utilization on a 40h week, that's ~22 billable hours/week —
-  useful as your denominator when sanity-checking whether a retainer or
-  package load is actually sustainable alongside new client acquisition.
+This matters more than the generic "solo consultant" framing below implies:
+**H1 runs alongside your full-time role at ChemView**, not instead of it. Plan
+capacity accordingly, not against a 40h/week baseline.
+
+- Realistic **available hours for H1**: evenings + weekends. Even an
+  aggressive estimate is ~10–15h/week before burnout risk, and that has to
+  absorb business development, admin/invoicing, and CPD as well as billable
+  work — so realistic **billable** capacity is closer to 5–10h/week,
+  especially while ChemView is also busy.
+- This caps how many retainer clients and concurrent PIF engagements you can
+  responsibly take at once — size your client load against ~20–40 billable
+  hours/month total, not per-client, and track it so you notice before you're
+  overcommitted rather than after a deadline slips.
+- **Check your ChemView employment contract** for moonlighting, outside-work,
+  or conflict-of-interest clauses before this goes further — this is
+  genuinely worth a deliberate check, not an assumption either way,
+  particularly if ChemView (or Neutrogena's parent) could ever be read as a
+  competitor to H1's client base or if the contract requires disclosure of
+  outside consulting work. A qualified employment lawyer's read is the actual
+  answer here, not mine — but it's a real risk to close out early rather than
+  discover later.
 - Build in explicit **non-billable regulatory monitoring time** (tracking
   Annex II–VI amendments, new SCCS opinions, Commission guidance) — this is
   real, recurring work that protects your fixed-fee margins and should be
-  budgeted as overhead, not squeezed out.
+  budgeted as overhead, not squeezed out, even at low volume.
+
+### Generic solo-consultant utilization math (for reference, once/if H1 goes full-time)
+
+- A 40h/week full-time solo practice does **not** mean 40 billable hours.
+  Realistic **utilization rate** (billable ÷ total working hours):
+  - Year 1 (building pipeline): ~40–55%
+  - Steady state, established practice: ~60–70%
+- At 55% utilization on a 40h week, that's ~22 billable hours/week — not
+  applicable to your current side-practice phase, but the number to revisit
+  if/when H1 becomes your primary occupation.
 
 ## 3. Scoping new engagements
 
