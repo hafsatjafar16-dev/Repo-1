@@ -4,7 +4,7 @@ All the code is written and builds locally. What's left needs your own
 accounts and credentials — none of this can be done on your behalf, since it
 involves your identity/billing. Follow these steps in order.
 
-Scope note: this build is trimmed to what H1 actually needs — capture,
+Scope note: this build is trimmed to what Hechwan actually needs — capture,
 tasks/CRM, journal, and searchable memory (Brain). The original guide's
 personal-life cards (Nutrition, Habit Tracker, Calendar, Finance Pulse) were
 removed as scope creep; see `../tooling/personal-os-stack-decision.md` for
@@ -110,7 +110,7 @@ Redeploy after adding env vars: `vercel --prod`.
 
 ## 7. Personalize
 
-- `lib/operatorConfig.ts` already has your name and role (H1 founder) filled
+- `lib/operatorConfig.ts` already has your name and role (Hechwan founder) filled
   in — `location` is still a placeholder ("Your city"), since that's not
   something to guess. Fill that in, and update `currentFocus` as it changes.
 - The **CRM tab is your client tracker** — "clients" are `entities` with

@@ -2,6 +2,6 @@
 export const operatorConfig = {
   name: "Hafsat Jaafar",
   location: "Your city", // not set yet — fill in
-  role: "Founder, H1 — EMEA Cosmetics Regulatory Consulting",
+  role: "Founder, Hechwan — EMEA Cosmetics Regulatory Consulting",
   currentFocus: "Onboarding early clients; sourcing external labs for CPSR safety assessment",
 };

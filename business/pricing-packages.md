@@ -1,4 +1,4 @@
-# Pricing & Packages — Draft (H1)
+# Pricing & Packages — Draft (Hechwan)
 
 Working draft to refine together. Figures below are general industry
 ballparks for independent EU cosmetics regulatory consultants, not a

@@ -38,7 +38,7 @@ function LoginForm() {
       onSubmit={handleSubmit}
       className="w-full max-w-sm rounded-xl border border-border bg-panel-bg p-8 backdrop-blur"
     >
-      <h1 className="mb-1 text-lg font-semibold text-ink-0">H1 OS</h1>
+      <h1 className="mb-1 text-lg font-semibold text-ink-0">Hechwan OS</h1>
       <p className="mb-6 text-sm text-ink-2">Enter your password to continue.</p>
 
       <input

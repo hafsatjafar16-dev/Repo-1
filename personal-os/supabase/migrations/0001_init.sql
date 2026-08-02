@@ -1,4 +1,4 @@
--- H1 OS / practice-management tool — initial schema
+-- Hechwan OS / practice-management tool — initial schema
 -- Run against a Supabase project (EU region recommended — see ../../SETUP.md).
 
 create extension if not exists vector;

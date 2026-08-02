@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "H1 OS",
-  description: "H1 practice-management dashboard: capture, tasks, memory.",
+  title: "Hechwan OS",
+  description: "Hechwan practice-management dashboard: capture, tasks, memory.",
 };
 
 export default function RootLayout({

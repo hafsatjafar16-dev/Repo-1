@@ -46,7 +46,7 @@ export function TopRail() {
     <header className="flex items-center justify-between border-b border-border px-6 py-3">
       <div className="flex items-center gap-2">
         <span className="h-1.5 w-1.5 rounded-full bg-ok" />
-        <span className="label-tracked text-ink-1">H1 OS // v1</span>
+        <span className="label-tracked text-ink-1">Hechwan OS // v1</span>
       </div>
 
       <nav className="flex gap-1">

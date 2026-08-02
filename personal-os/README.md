@@ -1,13 +1,13 @@
-# H1 OS
+# Hechwan OS
 
-Hafsat Jaafar's practice-management tool for **H1** (EU/EMEA cosmetics
+Hafsat Jaafar's practice-management tool for **Hechwan** (EU/EMEA cosmetics
 regulatory consulting, run alongside her full-time role at ChemView):
 capture (web form + optional Telegram voice bot) → AI classification →
 tasks/journal/notes/goals, a CRM that doubles as a client tracker, and a
 memory layer (Brain) you can search or ask questions against.
 
 Trimmed from the original "Personal OS Build Cheat Sheet" guide to just what
-H1 needs — the guide's personal-life cards (Nutrition, Habit Tracker,
+Hechwan needs — the guide's personal-life cards (Nutrition, Habit Tracker,
 Calendar, Finance Pulse) were cut as scope creep. See
 `../tooling/personal-os-stack-decision.md` for that call and the stack
 decision: Next.js + Supabase (EU region) + Claude/OpenAI + Vercel + optional

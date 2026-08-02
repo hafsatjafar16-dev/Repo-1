@@ -1,6 +1,6 @@
-# H1 — EMEA Cosmetics Regulatory Consulting — Working Repo
+# Hechwan — EMEA Cosmetics Regulatory Consulting — Working Repo
 
-Working repo for **H1**, Hafsat Jaafar's EU/EMEA cosmetics regulatory affairs
+Working repo for **Hechwan**, Hafsat Jaafar's EU/EMEA cosmetics regulatory affairs
 consulting practice (run alongside her full-time role at ChemView). See
 `CLAUDE.md` for how the assistant should behave here — it acts as a second
 regulatory specialist grounded in Regulation (EC) 1223/2009.
@@ -16,13 +16,13 @@ regulatory specialist grounded in Regulation (EC) 1223/2009.
   example service packages.
 - `business/consulting-hours-capacity.md` — draft hours-per-deliverable
   benchmarks and capacity planning (sized for a side practice, not full-time).
-- `tooling/personal-os-stack-decision.md` — stack decision for H1 OS, the
+- `tooling/personal-os-stack-decision.md` — stack decision for Hechwan OS, the
   practice-management tool.
-- `personal-os/` — H1 OS itself (Next.js app: client/task CRM, capture
+- `personal-os/` — Hechwan OS itself (Next.js app: client/task CRM, capture
   pipeline, searchable memory, weekly review).
 
 ## Status
 
 Rates, hour estimates, and package structures are indicative starting points
-— refine with actuals as engagements happen. H1 OS is built but not yet
+— refine with actuals as engagements happen. Hechwan OS is built but not yet
 deployed; see `personal-os/SETUP.md`.

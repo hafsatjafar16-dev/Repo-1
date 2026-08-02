@@ -1,15 +1,15 @@
-# H1 OS — Stack Decision
+# Hechwan OS — Stack Decision
 
 Source: "Personal OS Build Cheat Sheet" (Miles Deutscher / AI Edge) — a build
 guide for a personal AI dashboard (task/CRM/journal/habits/finance/memory,
-captured via a Telegram voice bot), adapted and rebranded as **H1 OS** for
+captured via a Telegram voice bot), adapted and rebranded as **Hechwan OS** for
 Hafsat's practice. This doc records the stack comparison and decision; the
 build itself lives in `../personal-os/`.
 
-## Scope cut: trimmed to what H1 actually needs
+## Scope cut: trimmed to what Hechwan actually needs
 
 The guide's default is a general personal-life dashboard. For "a secondary
-regulatory consultant to lean on, help with clients and tasks" — H1, run
+regulatory consultant to lean on, help with clients and tasks" — Hechwan, run
 alongside Hafsat's full-time role at ChemView — most of that is unused
 surface area rather than a requirement. Cut:
 
@@ -39,7 +39,7 @@ dead weight.
 - **Database: Supabase (Postgres + pgvector), EU region (Frankfurt)** — free
   tier covers this volume; bundled vector search covers the memory/search
   layer without extra services. EU region matters here specifically because
-  this tool will hold client/task data for H1 — Firebase and most
+  this tool will hold client/task data for Hechwan — Firebase and most
   alternatives don't give as clean an EU-residency story.
 - **LLM: Claude (primary) + OpenAI (fallback)** — usage-based, no flat fee.
   Already have Claude access via this environment, so no new subscription.
@@ -69,10 +69,10 @@ dead weight.
 
 ## Expected cost (trimmed scope)
 
-$0/month infrastructure (all free tiers). LLM/embedding API usage at H1's
+$0/month infrastructure (all free tiers). LLM/embedding API usage at Hechwan's
 realistic volume (client-driven captures, occasional CRM smart search and
 Brain queries — not habitual multi-times-daily personal logging, and capped
-further by H1 being a ~5–10h/week side practice, not full-time) is estimated
+further by Hechwan being a ~5–10h/week side practice, not full-time) is estimated
 at **~$5–15/month**, lower than the guide's own ~$30/month figure since that
 included Nutrition/Finance Pulse's extra Claude calls, which are gone. A $20
 balance with a spend cap on each of Anthropic/OpenAI is comfortable headroom.
