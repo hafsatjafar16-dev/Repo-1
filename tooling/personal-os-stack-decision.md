@@ -79,5 +79,11 @@ balance with a spend cap on each of Anthropic/OpenAI is comfortable headroom.
 
 ## Status
 
-Built — see `../personal-os/`. Not yet deployed; `SETUP.md` there has the
-account-creation and credential-wiring steps.
+Built and deployed — see `../personal-os/`. Live at
+https://personal-os-lac-pi.vercel.app on Vercel's **Hobby** tier (a deliberate
+choice: technically for commercial use Pro is the compliant tier, but given
+Hechwan OS is low-traffic internal tooling rather than a customer-facing
+product, the practical risk was judged low enough to start on Hobby and
+upgrade later if it ever becomes a live concern — see `SETUP.md` for the full
+reasoning). `SETUP.md` has the account-creation and credential-wiring steps
+as a record.

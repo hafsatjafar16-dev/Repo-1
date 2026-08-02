@@ -1,5 +1,10 @@
 # Setup — accounts, credentials, deployment
 
+**Status: done.** Live at https://personal-os-lac-pi.vercel.app (Vercel
+Hobby, Supabase Frankfurt, Anthropic + OpenAI). Steps below are kept as a
+record of what was done and as a reference for future redeploys or setting
+this up again elsewhere — not something you need to redo.
+
 All the code is written and builds locally. What's left needs your own
 accounts and credentials — none of this can be done on your behalf, since it
 involves your identity/billing. Follow these steps in order.
@@ -79,6 +84,15 @@ npm run dev
 Open http://localhost:3000, log in with `DASHBOARD_PASSWORD`.
 
 ## 6. Deploy to Vercel
+
+**Plan: Hobby vs Pro.** Vercel's Hobby tier is technically for personal,
+non-commercial use — Hechwan is a commercial practice, so strictly Pro
+($20/month) is the compliant choice. In practice, enforcement targets
+obviously commercial/high-traffic/customer-facing projects, and Hechwan OS is
+low-traffic internal tooling (just you, not client-facing), so the risk was
+judged low enough to start on **Hobby** and upgrade if it ever becomes a live
+concern. Switching plans later is a couple of clicks in the dashboard, no
+redeploy needed — so this isn't a locked-in decision.
 
 ```bash
 npm i -g vercel

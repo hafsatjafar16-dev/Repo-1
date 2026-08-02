@@ -13,9 +13,9 @@ Calendar, Finance Pulse) were cut as scope creep. See
 decision: Next.js + Supabase (EU region) + Claude/OpenAI + Vercel + optional
 Telegram.
 
-**Not deployed yet.** See `SETUP.md` for account creation, credentials, and
-deployment steps — none of that could be done automatically since it needs
-your own Supabase/Vercel/Telegram/Anthropic/OpenAI accounts.
+**Live**: https://personal-os-lac-pi.vercel.app — deployed on Vercel (Hobby),
+Supabase (Frankfurt), Anthropic + OpenAI. See `SETUP.md` for how it was set
+up, or to reproduce.
 
 ## Local development
 

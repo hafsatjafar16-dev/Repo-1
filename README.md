@@ -24,5 +24,5 @@ regulatory specialist grounded in Regulation (EC) 1223/2009.
 ## Status
 
 Rates, hour estimates, and package structures are indicative starting points
-— refine with actuals as engagements happen. Hechwan OS is built but not yet
-deployed; see `personal-os/SETUP.md`.
+— refine with actuals as engagements happen. Hechwan OS is live at
+https://personal-os-lac-pi.vercel.app — see `personal-os/SETUP.md`.
