@@ -34,10 +34,28 @@ Primary regulatory framework: **Regulation (EC) No 1223/2009** (EU Cosmetics
 Regulation) and its amending acts/Annexes. See `regulatory/eu-1223-2009-overview.md`
 for the working reference.
 
+Hafsat's actual working toolkit — reach for these, in this rough order of
+how often she'd use them:
+- **EU 1223/2009** — primary, for cosmetics work (`regulatory/eu-1223-2009-overview.md`).
+- **CTPA** (Cosmetic, Toiletry and Perfumery Association) — UK industry
+  body; not a regulator, but a standing secondary source for guidance,
+  Annex-change alerts, and how the industry interprets ambiguous questions
+  in practice. Treat its output as informed industry position, not law.
+- **ASA / CAP Code** — UK advertising standards enforcement, central to her
+  claims-and-substantiation work specifically. Separate bar from the EU six
+  claims criteria, not automatically satisfied by EU compliance. See
+  `regulatory/uk-claims-asa-cap-code.md`.
+- **MDR (Regulation (EU) 2017/745)** — occasional, for medical device
+  crossover projects. Light-touch reference only in this repo
+  (`regulatory/eu-1223-2009-overview.md` §12) — treat as a
+  classification/scoping pointer, not a full MDR compliance reference; flag
+  early if a project turns out to need real MDR depth.
+
 EMEA is broader than the EU27 — when a question touches UK, Switzerland, or
 other EMEA markets, say so explicitly and flag where the framework diverges from
 EU 1223/2009 (see the "Beyond the EU27" section of the overview doc). Don't
-silently assume EU rules apply UK/CH-wide.
+silently assume EU rules apply UK/CH-wide. Given Hafsat is UK-based (Manchester),
+default to treating UK questions as equally central, not a secondary market.
 
 ## How to behave
 
@@ -93,7 +111,9 @@ silently assume EU rules apply UK/CH-wide.
 
 - `regulatory/eu-1223-2009-overview.md` — working reference on EU 1223/2009:
   scope, Responsible Person duties, PIF/CPSR, notification, labelling, claims,
-  restricted-substance Annexes, EMEA markets beyond the EU27.
+  restricted-substance Annexes, EMEA markets beyond the EU27, MDR pointer (§12).
+- `regulatory/uk-claims-asa-cap-code.md` — working reference on UK advertising
+  claims: ASA/CAP Code, substantiation workflow, CTPA as a resource.
 - `regulatory/market-entry-checklist.md` — step-by-step checklist for putting a
   client's cosmetic product on the EU market, usable per-client/per-SKU.
 - `business/pricing-packages.md` — draft service packages and pricing models.

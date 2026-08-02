@@ -114,6 +114,10 @@ retained in/referenced by the PIF. The EU also maintains guidance documents on
 specific claim types (e.g., "free-from" claims, naturalness claims) worth
 checking against for higher-risk claims.
 
+For UK-facing claims specifically, this isn't the whole picture — the ad also
+has to clear the CAP Code / ASA bar, which is a separate enforcement layer
+with its own evidence expectations. See `uk-claims-asa-cap-code.md`.
+
 ## 9. Nanomaterials — Art. 16
 
 Separate notification requirement 6 months before market placement if the
@@ -147,3 +151,33 @@ filter/preservative-specific Annex entry with defined nano conditions.
 - **Rule of thumb:** treat "EMEA" as a shorthand for "ask which specific
   jurisdiction," not a single ruleset. Default assumption in this repo is EU27
   unless the client/product is specified otherwise.
+
+## 12. Medical devices (MDR) — borderline-product pointer, not a full reference
+
+This repo is cosmetics-first; MDR (Regulation (EU) 2017/745) content here is
+intentionally light since it's occasional crossover work, not the core
+practice. Treat this as a flag-it-early pointer, not a substitute for
+proper MDR-specific reference material if a device engagement gets deeper.
+
+- **The classification question comes first, same instinct as Art. 2
+  cosmetic qualification** (§1 above): does the product have a medical
+  purpose (diagnosis, prevention, monitoring, treatment of disease/injury)
+  via a mechanism that isn't primarily pharmacological/immunological/
+  metabolic? If yes, it's a device, not a cosmetic — different regulation,
+  different Responsible Person concept (MDR uses "Authorised
+  Representative," not the cosmetics RP), different notification route
+  (device registration via Eudamed / national competent authority, not
+  CPNP), and a much heavier conformity route (risk classification I/IIa/
+  IIb/III, Notified Body involvement for anything above Class I).
+- **Common borderline territory from the cosmetics side**: contact lenses/
+  lens care products, certain skin-adjacent devices (microneedling/derma-
+  rollers depending on claims and mechanism), some UV-exposure or light-
+  based devices, and products where the claimed *mechanism* (not just the
+  claimed *effect*) crosses into physical/mechanical action rather than
+  cosmetic function. The claim wording itself can be what tips
+  classification — same trap as the medicinal-claim issue on the
+  advertising side (see `uk-claims-asa-cap-code.md` §2).
+- **Practical move**: flag classification as its own scoped question at
+  intake for anything device-adjacent, before quoting cosmetics-style PIF/
+  CPSR work — MDR conformity is a materially different (and heavier)
+  engagement, not an add-on to a cosmetics package.

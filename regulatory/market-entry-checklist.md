@@ -6,7 +6,10 @@ client/per SKU; strike through what doesn't apply.
 
 ## Phase 0 — Qualification
 - [ ] Confirm the product is in scope as a *cosmetic* (not biocide / medical
-      device / medicinal product) — Art. 2 borderline check
+      device / medicinal product) — Art. 2 borderline check. If it leans
+      device (mechanism-based claim, not just cosmetic function), see
+      `eu-1223-2009-overview.md` §12 before scoping as a standard cosmetics
+      engagement — MDR conformity is a different, heavier engagement.
 - [ ] Identify target market(s): EU27 only, or also UK/CH/other EMEA — this
       determines whether one RP+notification is enough or multiple are needed
 - [ ] Confirm who will act as Responsible Person (client itself if EU-based, or
@@ -35,6 +38,9 @@ client/per SKU; strike through what doesn't apply.
       655/2013): legal, truthful, evidenced, honest, fair, informs decisions
 - [ ] Substantiation dossier assembled for higher-risk claims (efficacy,
       "free-from," naturalness, hypoallergenic, etc.)
+- [ ] If UK is a target market: claims also checked against the CAP Code
+      (ASA) — a separate bar from the EU six criteria, not automatically
+      satisfied by EU compliance. See `uk-claims-asa-cap-code.md`.
 
 ## Phase 4 — Labelling
 - [ ] RP name/address on label
